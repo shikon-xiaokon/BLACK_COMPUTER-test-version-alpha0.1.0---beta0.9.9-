@@ -22,9 +22,6 @@ po.mkdir(r'C:\py_pan\systemAPP\Test version of document writing tool')
 jx = os.name
 
 
-# print("————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————")
-
-
 def get_size():
     pass
 
@@ -398,6 +395,8 @@ if jx == "nt":
             print("GPU Utilization:", utilization.gpu)
             print("Memory Utilization:", utilization.memory)
             print("=" * 40, "python", "=" * 40)
+
+"""
             # 获取Python版本
             python_version = platform.python_version()
             print(f'Python版本: {python_version}')
@@ -412,8 +411,7 @@ if jx == "nt":
 
             print("=" * 89)
             print("")
-
-# ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+"""
 else:
     print("your computer can't use this system")
     print("Error")
